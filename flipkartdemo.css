@@ -225,7 +225,92 @@ footer {
 	height: 292px;
 	display: flex;
 	align-items: center;
-	padding: 24px 0px 30px 24px;
+	/* padding: 24px 0 30px 24px; */
+}
+.left-side{
+	width: 200px;
+	height: 231px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.image-box{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.image-box img{
+	height: 200px;
+	width: 94px;
+}
+.product-text-box{
+	width: auto;
+	height: 231px;
+	margin-left: 10px;
+}
+.green-rating{
+	background-color: green;
+	font-size: 12px;
+	width: 30px;
+	padding: 5px;
+	color: #fff;
+	border-radius: 2px;
+	display: flex;
+}
+.ratin-sect{
+	display: flex;
+	font-size: 14px;
+	align-items: center;
+}
+.prod-discription{
+margin-left: 15px;
+margin-top: 20px;
+	
+}
+.prod-discription li{
+	height: 22px;
+	font-size: 14px;
+}
+.make-content{
+	display: flex;
+	align-items: center;
+	margin: 24px 0 30px 24px;
+}
+.filter-menu li{
+	list-style: none;
+}
+.prod-container{
+	list-style: none;
+}
+.body-title-menu ul{
+	display: flex;
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.body-title-menu ul li{
+	padding-bottom: 8px;
+	margin-right: 10px;
+
+}
+.body-title-content h4{
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.activate-sort{
+	border-bottom: 2px solid #2874f0;
+}
+.prod-container{
+	border-top: 1px solid gray;
+	width: 100%;
+	height: 292px;
+	display: flex;
+	align-items: center;
+/* this is were padding should be if necessory */
 }
 .left-side{
 	width: 200px;
@@ -247,6 +332,95 @@ footer {
 .image-box img{
 	height: 200px;
 	width: 94px;
+}
+
+.footer-menu{
+	display: flex;
+	background-color: black;
+	width: 1363.68px;
+	height: 233.8px;
+	margin: 0 85px;
+	padding: 40px 0 0 0;
+	font-size: 14px;
+	text-align: left;
+}
+.about{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+
+
+}
+
+.help{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+.policy{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+
+.social{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+.mail-us{
+	width: 283.038px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+.registerered-office-address{
+	width: 283.038px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-menu li{
+	color: #fff;
+	list-style: none;
+	line-height: 24px;
+	font-size: 12px;
+}
+.footer-menu p{
+	color: grey;
+	font-size: 12px;
+	line-height: 16.8px;
+	margin: 0 0 9px 0;
+}
+.footer-add{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.footer-add p{
+	width: 150px;
+	color: #fff;
+}
+.footer-add-bottom{
+	display: flex;
+	width: auto;
 }
 @media screen and (max-width: 1200px) {
 	.cart {
