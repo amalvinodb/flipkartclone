@@ -38,7 +38,7 @@ nav li {
 	color: white;
 }
 .cta span {
-	color: coral;
+	color: #ffe500;
 }
 .cta img {
 	height: 10px;
@@ -113,15 +113,15 @@ nav li {
 .filter-box {
 	margin: 0px 10px;
 	width: 270px;
-	height: 1511.2px;
+	height: 1443.2px;
 	background-color: #fff;
 }
 .filter-menu li {
 	border-bottom: 1px solid gray;
-	padding: 20px 0px;
+	
 }
 .prod-box {
-	height: 5860px;
+	height: 4978px;
 	width: 1225px;
 	background-color: #fff;
 }
@@ -148,7 +148,7 @@ nav li {
 .review-box {
 	width: 1503px;
 	height: 1155px;
-	background-color: aqua;
+	background-color: rgb(255, 255, 255);
 	margin: auto;
 }
 footer {
@@ -280,6 +280,7 @@ margin-top: 20px;
 	margin: 24px 0 30px 24px;
 }
 .filter-menu li{
+	padding: 16px;
 	list-style: none;
 }
 .prod-container{
@@ -384,9 +385,34 @@ margin-top: 20px;
 	display: block;
 	background-color: black;
 }
-
-
-
+.price-tag{
+	height: 231px;
+	margin-left: 100px;
+}
+.price-list{
+	list-style: none;
+}
+.filter-title{
+	display: flex;
+	align-items: center;
+	height: 54px;
+	margin: 2px 10px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.filter-catagories{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 114px;
+	margin: 0px 10px;
+	font-size: 14px;
+}
+.filter-menu-item{
+	font-size: 13px;
+	display: flex;
+	justify-content: space-between;
+}
 
 
 
