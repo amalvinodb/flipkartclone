@@ -248,6 +248,84 @@ footer {
 	height: 200px;
 	width: 94px;
 }
+
+.footer-menu{
+	display: flex;
+	background-color: black;
+	width: 1363.68px;
+	height: 233.8px;
+	margin: 0 85px;
+	padding: 40px 0 0 0;
+	font-size: 14px;
+	text-align: left;
+}
+.about{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+
+
+}
+
+.help{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+.policy{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+
+.social{
+	width: 208.65px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+.mail-us{
+	width: 283.038px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+.registerered-office-address{
+	width: 283.038px;
+	height: 193.8px;
+	display: block;
+	background-color: black;
+}
+
+.footer-menu li{
+	color: #fff;
+	list-style: none;
+	line-height: 24px;
+	font-size: 12px;
+}
+.footer-menu p{
+	color: grey;
+	font-size: 12px;
+	line-height: 16.8px;
+	margin: 0 0 9px 0;
+}
+.footer-add{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.footer-add p{
+	width: 150px;
+	color: #fff;
+}
+.footer-add-bottom{
+	display: flex;
+	width: auto;
+}
 @media screen and (max-width: 1200px) {
 	.cart {
 		display: none;
