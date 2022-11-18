@@ -11,7 +11,7 @@ body {
 	height: 56px;
 	background-color: #2874f0;
 }
-li {
+nav li {
 	list-style: none;
 }
 .main-nav-menu {
@@ -179,7 +179,75 @@ footer {
     padding: 6px 28px;
     margin: 0 8px 0 0;
 }
+.body-title{
+	height:97px;
+	width: 100%;
+	background-color: #ffffff;
+}
+.body-title-content{
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.body-title-content p{
+	font-size: 12px;
+}
+.body-title li{
+	list-style: none;
+}
+.filter-menu li{
+	list-style: none;
+}
+.prod-container{
+	list-style: none;
+}
+.body-title-menu ul{
+	display: flex;
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.body-title-menu ul li{
+	padding-bottom: 8px;
+	margin-right: 10px;
 
+}
+.body-title-content h4{
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.activate-sort{
+	border-bottom: 2px solid #2874f0;
+}
+.prod-container{
+	border-top: 1px solid gray;
+	width: 100%;
+	height: 292px;
+	display: flex;
+	align-items: center;
+	padding: 24px 0px 30px 24px;
+}
+.left-side{
+	width: 200px;
+	height: 231px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.question-box{
+	
+}
+.image-box{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.image-box img{
+	height: 200px;
+	width: 94px;
+}
 @media screen and (max-width: 1200px) {
 	.cart {
 		display: none;
